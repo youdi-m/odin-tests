@@ -1,0 +1,43 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "jest": "^30.3.0"
+  },
+  "name": "odin-tests",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "dependencies": {
+    "babel-plugin-polyfill-corejs2": "^0.4.17",
+    "babel-plugin-polyfill-corejs3": "^0.14.2",
+    "babel-plugin-polyfill-regenerator": "^0.6.8",
+    "baseline-browser-mapping": "^2.10.20",
+    "browserslist": "^4.28.2",
+    "caniuse-lite": "^1.0.30001788",
+    "core-js-compat": "^3.49.0",
+    "electron-to-chromium": "^1.5.341",
+    "escalade": "^3.2.0",
+    "esutils": "^2.0.3",
+    "node-releases": "^2.0.37",
+    "picocolors": "^1.1.1",
+    "semver": "^6.3.1",
+    "update-browserslist-db": "^1.2.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youdi-m/odin-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youdi-m/odin-tests/issues"
+  },
+  "homepage": "https://github.com/youdi-m/odin-tests#readme"
+}
